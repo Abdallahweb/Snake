@@ -1,0 +1,43 @@
+body{
+margin: 0;
+padding: 0;
+position: relative;
+overflow: hidden;
+height: 100vh;
+background-image: linear-gradient(to bottom, #000, 50%, #646363, #000);
+border: 1px dashed #555454;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}    
+#ScoreContainer{
+position: absolute;
+width: 1000px;
+height: 300px;
+top: 50%;
+left: 50%;
+margin-left: -500px;
+margin-top: -150px;
+text-align: center;
+color:transparent;
+font-size: 50px;
+font-weight: bold;
+-webkit-text-stroke: 1px #fff;
+
+
+
+}
+#SnakeImg{
+width:120px; 
+height:150px;
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+#FoodImg{
+width:70px; 
+height:70px;
+position: absolute;
+top: 20px;
+left: 20px;
+
+}
