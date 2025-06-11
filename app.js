@@ -80,6 +80,35 @@ let Food = new Game(document.getElementById("FoodImg"), Random(window.innerWidth
 
 let Snake = new Game( document.getElementById("SnakeImg"), Random(window.innerWidth - 80), Random(window.innerHeight - 80));
 
+let ToTop = document.getElementById("ToTop").addEventListener("click" ,Top );
+let ToLeft = document.getElementById("ToLeft").addEventListener("click" ,Left );
+let ToDown = document.getElementById("ToDown").addEventListener("click" ,Down );
+let ToRight = document.getElementById("ToRight").addEventListener("click" ,Right );
+
+
+function Top(){
+if(Snake.y > 0){
+Snake.moveUp();
+Snake.Eat();
+}}
+
+function Left(){
+if(Snake.x > 0 ){
+Snake.moveLeft();
+Snake.Eat();
+}}
+
+function Down(){
+ if(Snake.y < window.innerHeight - 150){
+Snake.moveDown();
+Snake.Eat();
+}}
+
+function Right(){
+if(Snake.x < window.innerWidth - 150){
+Snake.moveRight();
+Snake.Eat();
+}}
 
 
 
