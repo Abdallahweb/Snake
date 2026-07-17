@@ -4,7 +4,10 @@ padding: 0;
 position: relative;
 overflow: hidden;
 height: 100vh;
-background-image: linear-gradient(to bottom, #000, 50%, #2e2e2e, #000);
+background-image: linear-gradient(to bottom, #000000d0, rgb(22, 22, 22)), url(./background.webp);;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }    
 #ScoreContainer{
