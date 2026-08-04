@@ -4,7 +4,7 @@ padding: 0;
 position: relative;
 overflow: hidden;
 height: 100vh;
-background-image: linear-gradient(to bottom, #00000081), url(./back.gif);;
+background-image: linear-gradient(to bottom, #000000c5), url(./back.gif);;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -38,7 +38,6 @@ left: 20px;
 #FoodImg{
 width:60px; 
 height:80px;
-
 position: absolute;
 top: 20px;
 left: 20px;
