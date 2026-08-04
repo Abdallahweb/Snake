@@ -4,7 +4,7 @@ padding: 0;
 position: relative;
 overflow: hidden;
 height: 100vh;
-background-image: linear-gradient(to bottom, #000000c5), url(./back.gif);;
+background-image: linear-gradient(to bottom, #000000f6 , 60% , #1f1f1f , #000);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
